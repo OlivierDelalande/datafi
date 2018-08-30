@@ -1,0 +1,1 @@
+export const parseRates = (number) => parseFloat(number.toString().split('').slice(0, -5).join('')).toFixed(2)
